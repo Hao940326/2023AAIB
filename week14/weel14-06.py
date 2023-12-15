@@ -1,0 +1,6 @@
+a,b,c = input().split()
+if b =='+':ans = int(a)+int(c)
+if b =='-':ans = int(a)-int(c)
+if b =='*':ans = int(a)*int(c)
+if b =='/':ans = int(a)//int(c)
+print(ans,end="")
